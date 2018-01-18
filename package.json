@@ -11,7 +11,10 @@
   "author": "Process <contact@process.studio> (https://process.studio)",
   "license": "AGPL-3.0",
   "dependencies": {
-    "browser-sync": "^2.23.5",
     "three": "^0.89.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.5",
+    "eslint": "^4.15.0"
   }
 }

@@ -1,7 +1,8 @@
 const W = 1280;
 const H = 720;
 
-let renderer, scene, camera, controls;
+let renderer, scene, camera;
+let controls; // eslint-disable-line no-unused-vars
 
 main();
 
@@ -38,9 +39,9 @@ function setup() {
 }
 
 
-function loop(time) {
+function loop(time) { // eslint-disable-line no-unused-vars
   
   requestAnimationFrame( loop );
   renderer.render( scene, camera );
   
-};
+}
