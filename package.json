@@ -19,7 +19,6 @@
     "three": "^0.89.0"
   },
   "devDependencies": {
-    "browser-sync": "^2.23.5",
-    "eslint": "^4.15.0"
+    "browser-sync": "^2.23.5"
   }
 }
