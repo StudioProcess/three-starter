@@ -27,7 +27,7 @@ function setup() {
   document.body.appendChild( renderer.domElement );
   
   scene = new THREE.Scene();
-  camera = new THREE.PerspectiveCamera( 75, W / H, 0.1, 1000 );
+  camera = new THREE.PerspectiveCamera( 75, W / H, 0.01, 1000 );
   controls = new THREE.OrbitControls( camera, renderer.domElement );
   camera.position.z = 2;
   
