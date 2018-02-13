@@ -23,7 +23,7 @@ function setup() {
     alpha: true
   });
   renderer.setSize( W, H );
-  // renderer.setPixelRatio( window.devicePixelRatio );
+  renderer.setPixelRatio( window.devicePixelRatio );
   document.body.appendChild( renderer.domElement );
   
   scene = new THREE.Scene();
