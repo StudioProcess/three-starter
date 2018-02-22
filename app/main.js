@@ -4,16 +4,13 @@ const H = 800;
 let renderer, scene, camera;
 let controls; // eslint-disable-line no-unused-vars
 
-main();
 
-
-function main() {
+(function main() {  
   
   setup(); // set up scene
-  
   loop(); // start game loop
-  
-}
+
+})();
 
 
 function setup() {
