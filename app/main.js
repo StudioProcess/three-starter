@@ -19,7 +19,8 @@ function setup() {
   
   renderer = new THREE.WebGLRenderer({
     antialias: true,
-    alpha: true
+    alpha: true,
+    preserveDrawingBuffer: true,
   });
   renderer.setSize( W, H );
   renderer.setPixelRatio( window.devicePixelRatio );
@@ -51,6 +52,10 @@ document.addEventListener('keydown', e => {
   
   if (e.key == 'f') { // f .. fullscreen
     util.toggleFullscreen();
+  }
+  
+  else if (e.key == 's') {
+    util.saveCanvas();
   }
   
 });
