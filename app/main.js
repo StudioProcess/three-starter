@@ -54,7 +54,7 @@ document.addEventListener('keydown', e => {
     util.toggleFullscreen();
   }
   
-  else if (e.key == 's') {
+  else if (e.key == 's') { // s .. save frame
     util.saveCanvas();
   }
   
